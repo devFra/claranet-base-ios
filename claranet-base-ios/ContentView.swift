@@ -7,15 +7,38 @@
 
 import SwiftUI
 
+
+
 struct ContentView: View {
+    
+    init(){
+        UITabBar.appearance().backgroundColor = UIColor.gray
+    }
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        
+        TabMenuView()
+//        NavigationView{
+//            Form {
+//                Section {
+//                    Text("Hello, world!").padding()
+//                }
+//                Section {
+//                    NavigationLink(destination: TestView()){
+//                        Text("Link")
+//                    }
+//                }
+//            }
+//        }
+//        .navigationTitle("SwiftUi")
+//        .navigationBarTitleDisplayMode(.inline)
+
+
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
-}
+//struct ContentView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        ContentView()
+//    }
+//}

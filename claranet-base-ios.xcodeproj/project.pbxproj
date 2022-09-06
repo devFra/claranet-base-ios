@@ -11,6 +11,8 @@
 		13712E5D28C63C2600384F3B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13712E5C28C63C2600384F3B /* ContentView.swift */; };
 		13712E5F28C63C2700384F3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13712E5E28C63C2700384F3B /* Assets.xcassets */; };
 		13712E6228C63C2700384F3B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13712E6128C63C2700384F3B /* Preview Assets.xcassets */; };
+		137E006828C79728001C451B /* TabMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137E006728C79728001C451B /* TabMenuView.swift */; };
+		137E006A28C798B3001C451B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137E006928C798B3001C451B /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		13712E5C28C63C2600384F3B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		13712E5E28C63C2700384F3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13712E6128C63C2700384F3B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		137E006728C79728001C451B /* TabMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabMenuView.swift; sourceTree = "<group>"; };
+		137E006928C798B3001C451B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,7 @@
 		13712E5928C63C2600384F3B /* claranet-base-ios */ = {
 			isa = PBXGroup;
 			children = (
+				137E006428C793C2001C451B /* Views */,
 				13712E5A28C63C2600384F3B /* claranet_base_iosApp.swift */,
 				13712E5C28C63C2600384F3B /* ContentView.swift */,
 				13712E5E28C63C2700384F3B /* Assets.xcassets */,
@@ -65,6 +70,15 @@
 				13712E6128C63C2700384F3B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		137E006428C793C2001C451B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				137E006728C79728001C451B /* TabMenuView.swift */,
+				137E006928C798B3001C451B /* HomeView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +152,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				13712E5D28C63C2600384F3B /* ContentView.swift in Sources */,
+				137E006A28C798B3001C451B /* HomeView.swift in Sources */,
 				13712E5B28C63C2600384F3B /* claranet_base_iosApp.swift in Sources */,
+				137E006828C79728001C451B /* TabMenuView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
