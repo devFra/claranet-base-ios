@@ -9,6 +9,14 @@ import SwiftUI
 
 @main
 struct claranet_base_iosApp: App {
+    
+    init() {
+        #if DEV
+            print(" ⚠️ DEVELOPMENT ENVIRONMENT ⚠️")
+        #endif
+
+    }
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
