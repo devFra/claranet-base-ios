@@ -9,25 +9,9 @@
 import SwiftUI
 
 
-struct TestView: View {
-    
-    var body: some View {
-        Text("test")
-    }
-}
-
 struct HomeView: View {
-    
     var body: some View {
-        Form{
-            VStack{
-                Text("Home")
-                NavigationLink(destination: TestView()){
-                    Text("TEST VIEW")
-                }
-            }
-        }
-        
+        Text("Home")
     }
 }
 

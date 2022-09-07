@@ -20,35 +20,35 @@ struct TabMenuView: View {
             NavigationView {
                 HomeView()
             }.tabItem{
-                Image(systemName: "house.circle.fill")
+                Image(systemName: "house")
                 Text("Home")
             }
 
             NavigationView {
                 Text("Streaming")
             }.tabItem{
-                Image(systemName: "house.circle.fill")
+                Image(systemName: "play.circle")
                 Text("Streaming")
             }
 
             NavigationView {
                 Text("Risultati")
             }.tabItem{
-                Image(systemName: "house.circle.fill")
+                Image(systemName: "rosette")
                 Text("Risultati")
             }
             
             NavigationView {
-                Text("Altro")
+                OtherView()
             }.tabItem{
-                Image(systemName: "house.circle.fill")
+                Image(systemName: "ellipsis")
                 Text("altro")
             }
 
             
         
         }
-        .accentColor(.white)
+        //.accentColor(.white)
         .edgesIgnoringSafeArea(.all)
     }
 }
