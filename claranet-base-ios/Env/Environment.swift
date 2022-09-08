@@ -9,10 +9,11 @@ import Foundation
 
 struct Environment{
     
+    // MARK: - BACKEND BASE URL
     /**
-            Backend base url
-    */
-    var baseUrlBe: String {
+     Backend base url
+     */
+    public static var baseUrlBe: String {
         get{
             #if DEV
             return "https://devbe.com"

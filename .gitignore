@@ -21,4 +21,4 @@ xcuserdata
 *.dSYM
 
 # Exclude pods folder
-./Pods
+Pods

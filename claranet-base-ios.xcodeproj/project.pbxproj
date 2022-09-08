@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1323197428CA24EF00AF3B1A /* XRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323197328CA24EF00AF3B1A /* XRepository.swift */; };
+		1323197728CA26F100AF3B1A /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323197628CA26F100AF3B1A /* Router.swift */; };
+		135ACBFA854551FA9E25E2DE /* Pods_claranet_base_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB6EEDA019AA44BA7862DF2C /* Pods_claranet_base_ios.framework */; };
 		13712E5B28C63C2600384F3B /* claranet_base_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13712E5A28C63C2600384F3B /* claranet_base_iosApp.swift */; };
 		13712E5D28C63C2600384F3B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13712E5C28C63C2600384F3B /* ContentView.swift */; };
 		13712E5F28C63C2700384F3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13712E5E28C63C2700384F3B /* Assets.xcassets */; };
@@ -18,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1323197328CA24EF00AF3B1A /* XRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XRepository.swift; sourceTree = "<group>"; };
+		1323197628CA26F100AF3B1A /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		13712E5728C63C2600384F3B /* claranet-base-ios - DEV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "claranet-base-ios - DEV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13712E5A28C63C2600384F3B /* claranet_base_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = claranet_base_iosApp.swift; sourceTree = "<group>"; };
 		13712E5C28C63C2600384F3B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -27,6 +32,11 @@
 		137E006928C798B3001C451B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		13C4DDD028C8D0CA0041516F /* OtherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherView.swift; sourceTree = "<group>"; };
 		13C4DDED28C8F28E0041516F /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		395432FAA118818542CCFFF3 /* Pods-claranet-base-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-claranet-base-ios.debug.xcconfig"; path = "Target Support Files/Pods-claranet-base-ios/Pods-claranet-base-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		3B6C80E3095AF616B3EF4A97 /* Pods-claranet-base-ios.prod - debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-claranet-base-ios.prod - debug.xcconfig"; path = "Target Support Files/Pods-claranet-base-ios/Pods-claranet-base-ios.prod - debug.xcconfig"; sourceTree = "<group>"; };
+		61AC5A59F7D94496B2A645D6 /* Pods-claranet-base-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-claranet-base-ios.release.xcconfig"; path = "Target Support Files/Pods-claranet-base-ios/Pods-claranet-base-ios.release.xcconfig"; sourceTree = "<group>"; };
+		CB6EEDA019AA44BA7862DF2C /* Pods_claranet_base_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_claranet_base_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F73960A812450E29990539C5 /* Pods-claranet-base-ios.prod - release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-claranet-base-ios.prod - release.xcconfig"; path = "Target Support Files/Pods-claranet-base-ios/Pods-claranet-base-ios.prod - release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,17 +44,82 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				135ACBFA854551FA9E25E2DE /* Pods_claranet_base_ios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1323196F28CA228400AF3B1A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		1323197028CA245800AF3B1A /* Style */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		1323197128CA247700AF3B1A /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				1323197228CA24C000AF3B1A /* Model */,
+				1323197328CA24EF00AF3B1A /* XRepository.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		1323197228CA24C000AF3B1A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1323197528CA26C500AF3B1A /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				1323197628CA26F100AF3B1A /* Router.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		1323197828CA2DA000AF3B1A /* TabMenu */ = {
+			isa = PBXGroup;
+			children = (
+				137E006728C79728001C451B /* TabMenuView.swift */,
+			);
+			path = TabMenu;
+			sourceTree = "<group>";
+		};
+		1323197928CA2DAC00AF3B1A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				137E006928C798B3001C451B /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1323197A28CA2DBD00AF3B1A /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				13C4DDD028C8D0CA0041516F /* OtherView.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
 		13712E4E28C63C2600384F3B = {
 			isa = PBXGroup;
 			children = (
 				13712E5928C63C2600384F3B /* claranet-base-ios */,
 				13712E5828C63C2600384F3B /* Products */,
+				B29A342C92D6A71E4C74B8BD /* Pods */,
+				CFD1346F9C71ED9B74F0B12B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,8 +134,12 @@
 		13712E5928C63C2600384F3B /* claranet-base-ios */ = {
 			isa = PBXGroup;
 			children = (
+				1323197528CA26C500AF3B1A /* Networking */,
+				1323197128CA247700AF3B1A /* Data */,
+				1323197028CA245800AF3B1A /* Style */,
+				1323196F28CA228400AF3B1A /* Fonts */,
 				13C4DDEC28C8F27D0041516F /* Env */,
-				137E006428C793C2001C451B /* Views */,
+				137E006428C793C2001C451B /* Components */,
 				13712E5A28C63C2600384F3B /* claranet_base_iosApp.swift */,
 				13712E5C28C63C2600384F3B /* ContentView.swift */,
 				13712E5E28C63C2700384F3B /* Assets.xcassets */,
@@ -77,14 +156,14 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		137E006428C793C2001C451B /* Views */ = {
+		137E006428C793C2001C451B /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				137E006728C79728001C451B /* TabMenuView.swift */,
-				137E006928C798B3001C451B /* HomeView.swift */,
-				13C4DDD028C8D0CA0041516F /* OtherView.swift */,
+				1323197A28CA2DBD00AF3B1A /* Other */,
+				1323197928CA2DAC00AF3B1A /* Home */,
+				1323197828CA2DA000AF3B1A /* TabMenu */,
 			);
-			path = Views;
+			path = Components;
 			sourceTree = "<group>";
 		};
 		13C4DDEC28C8F27D0041516F /* Env */ = {
@@ -95,6 +174,25 @@
 			path = Env;
 			sourceTree = "<group>";
 		};
+		B29A342C92D6A71E4C74B8BD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				395432FAA118818542CCFFF3 /* Pods-claranet-base-ios.debug.xcconfig */,
+				3B6C80E3095AF616B3EF4A97 /* Pods-claranet-base-ios.prod - debug.xcconfig */,
+				61AC5A59F7D94496B2A645D6 /* Pods-claranet-base-ios.release.xcconfig */,
+				F73960A812450E29990539C5 /* Pods-claranet-base-ios.prod - release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CFD1346F9C71ED9B74F0B12B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB6EEDA019AA44BA7862DF2C /* Pods_claranet_base_ios.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -102,9 +200,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13712E6528C63C2700384F3B /* Build configuration list for PBXNativeTarget "claranet-base-ios" */;
 			buildPhases = (
+				22FCBFDD405957A47DB5BC34 /* [CP] Check Pods Manifest.lock */,
 				13712E5328C63C2600384F3B /* Sources */,
 				13712E5428C63C2600384F3B /* Frameworks */,
 				13712E5528C63C2600384F3B /* Resources */,
+				A8874E914B9ABF2FF35957BF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,17 +260,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		22FCBFDD405957A47DB5BC34 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-claranet-base-ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8874E914B9ABF2FF35957BF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-claranet-base-ios/Pods-claranet-base-ios-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-claranet-base-ios/Pods-claranet-base-ios-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-claranet-base-ios/Pods-claranet-base-ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		13712E5328C63C2600384F3B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1323197728CA26F100AF3B1A /* Router.swift in Sources */,
 				13712E5D28C63C2600384F3B /* ContentView.swift in Sources */,
 				13C4DDEE28C8F28E0041516F /* Environment.swift in Sources */,
 				137E006A28C798B3001C451B /* HomeView.swift in Sources */,
 				13712E5B28C63C2600384F3B /* claranet_base_iosApp.swift in Sources */,
 				137E006828C79728001C451B /* TabMenuView.swift in Sources */,
 				13C4DDD128C8D0CA0041516F /* OtherView.swift in Sources */,
+				1323197428CA24EF00AF3B1A /* XRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +437,7 @@
 		};
 		13712E6628C63C2700384F3B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 395432FAA118818542CCFFF3 /* Pods-claranet-base-ios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -323,6 +468,7 @@
 		};
 		13712E6728C63C2700384F3B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61AC5A59F7D94496B2A645D6 /* Pods-claranet-base-ios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -407,6 +553,7 @@
 		};
 		13C4DDE228C8E7D70041516F /* Prod - Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F73960A812450E29990539C5 /* Pods-claranet-base-ios.prod - release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -499,6 +646,7 @@
 		};
 		13C4DDE428C8E7EC0041516F /* Prod - Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B6C80E3095AF616B3EF4A97 /* Pods-claranet-base-ios.prod - debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
