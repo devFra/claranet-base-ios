@@ -10,8 +10,15 @@ import SwiftUI
 
 
 struct HomeView: View {
+    
+    @StateObject private var vm =  HomeViewModel.shared
+    
     var body: some View {
-        Text("Home")
+        ScrollView {
+            ForEach( vm.Articles ) { article in
+                ArticlePreviewView(article: article)
+            }
+        }
     }
 }
 

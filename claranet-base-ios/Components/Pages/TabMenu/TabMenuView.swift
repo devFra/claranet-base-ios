@@ -53,11 +53,11 @@ struct TabMenuView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        TabMenuView()
-    }
-}
+//struct ContentView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        TabMenuView()
+//    }
+//}
 
 
 

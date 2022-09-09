@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "dummy-post-horisontal-thegem-blog-default-large.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "dummy-post-horisontal-thegem-blog-default-large.jpg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "dummy-post-horisontal-thegem-blog-default-large.jpg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
