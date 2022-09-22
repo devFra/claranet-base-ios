@@ -12,11 +12,11 @@
 		1323197E28CA351C00AF3B1A /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323197D28CA351C00AF3B1A /* Colors.swift */; };
 		135ACBFA854551FA9E25E2DE /* Pods_claranet_base_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB6EEDA019AA44BA7862DF2C /* Pods_claranet_base_ios.framework */; };
 		13712E5B28C63C2600384F3B /* claranet_base_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13712E5A28C63C2600384F3B /* claranet_base_iosApp.swift */; };
-		13712E5D28C63C2600384F3B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13712E5C28C63C2600384F3B /* ContentView.swift */; };
 		13712E5F28C63C2700384F3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13712E5E28C63C2700384F3B /* Assets.xcassets */; };
 		13712E6228C63C2700384F3B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13712E6128C63C2700384F3B /* Preview Assets.xcassets */; };
 		137E006828C79728001C451B /* TabMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137E006728C79728001C451B /* TabMenuView.swift */; };
 		137E006A28C798B3001C451B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137E006928C798B3001C451B /* HomeView.swift */; };
+		138C97AC28DC9CAA006AF169 /* SpashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138C97AB28DC9CAA006AF169 /* SpashScreenView.swift */; };
 		13A81DEF28CB38D2002AE5C6 /* ArticlePreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A81DEE28CB38D2002AE5C6 /* ArticlePreviewView.swift */; };
 		13A81DF128CB4CD7002AE5C6 /* ArticleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A81DF028CB4CD7002AE5C6 /* ArticleModel.swift */; };
 		13A81DF328CB6FD1002AE5C6 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A81DF228CB6FD1002AE5C6 /* HomeViewModel.swift */; };
@@ -30,11 +30,11 @@
 		1323197D28CA351C00AF3B1A /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		13712E5728C63C2600384F3B /* claranet-base-ios - DEV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "claranet-base-ios - DEV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13712E5A28C63C2600384F3B /* claranet_base_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = claranet_base_iosApp.swift; sourceTree = "<group>"; };
-		13712E5C28C63C2600384F3B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		13712E5E28C63C2700384F3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13712E6128C63C2700384F3B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		137E006728C79728001C451B /* TabMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabMenuView.swift; sourceTree = "<group>"; };
 		137E006928C798B3001C451B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		138C97AB28DC9CAA006AF169 /* SpashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpashScreenView.swift; sourceTree = "<group>"; };
 		13A81DEE28CB38D2002AE5C6 /* ArticlePreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlePreviewView.swift; sourceTree = "<group>"; };
 		13A81DF028CB4CD7002AE5C6 /* ArticleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleModel.swift; sourceTree = "<group>"; };
 		13A81DF228CB6FD1002AE5C6 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
@@ -145,6 +145,7 @@
 		13712E5928C63C2600384F3B /* claranet-base-ios */ = {
 			isa = PBXGroup;
 			children = (
+				13A81DED28CB384B002AE5C6 /* Pages */,
 				1323197528CA26C500AF3B1A /* Networking */,
 				1323197128CA247700AF3B1A /* Data */,
 				1323197028CA245800AF3B1A /* Style */,
@@ -152,7 +153,6 @@
 				13C4DDEC28C8F27D0041516F /* Env */,
 				137E006428C793C2001C451B /* Components */,
 				13712E5A28C63C2600384F3B /* claranet_base_iosApp.swift */,
-				13712E5C28C63C2600384F3B /* ContentView.swift */,
 				13712E5E28C63C2700384F3B /* Assets.xcassets */,
 				13712E6028C63C2700384F3B /* Preview Content */,
 			);
@@ -170,7 +170,7 @@
 		137E006428C793C2001C451B /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				13A81DED28CB384B002AE5C6 /* Pages */,
+				1323197828CA2DA000AF3B1A /* TabMenu */,
 				13A81DEE28CB38D2002AE5C6 /* ArticlePreviewView.swift */,
 			);
 			path = Components;
@@ -181,7 +181,7 @@
 			children = (
 				1323197A28CA2DBD00AF3B1A /* Other */,
 				1323197928CA2DAC00AF3B1A /* Home */,
-				1323197828CA2DA000AF3B1A /* TabMenu */,
+				138C97AB28DC9CAA006AF169 /* SpashScreenView.swift */,
 			);
 			path = Pages;
 			sourceTree = "<group>";
@@ -330,7 +330,7 @@
 				13A81DF128CB4CD7002AE5C6 /* ArticleModel.swift in Sources */,
 				1323197728CA26F100AF3B1A /* Router.swift in Sources */,
 				1323197E28CA351C00AF3B1A /* Colors.swift in Sources */,
-				13712E5D28C63C2600384F3B /* ContentView.swift in Sources */,
+				138C97AC28DC9CAA006AF169 /* SpashScreenView.swift in Sources */,
 				13C4DDEE28C8F28E0041516F /* Environment.swift in Sources */,
 				137E006A28C798B3001C451B /* HomeView.swift in Sources */,
 				13712E5B28C63C2600384F3B /* claranet_base_iosApp.swift in Sources */,
